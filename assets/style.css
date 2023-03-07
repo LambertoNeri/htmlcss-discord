@@ -171,6 +171,54 @@ main section {
 	font-weight: 600;
 	line-height: 1.6rem;
 }
+
+.section-full .container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.section-full .container h1{
+	align-self: center;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.section-full .container p{
+	align-self: center;
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+	font-weight: 600;
+	max-width: 65%;
+	
+}
+.stelle{
+	align-self: center;
+	background-image: url(../img/stars.svg);
+	background-size: auto 52px;
+	background-repeat: no-repeat;
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+	padding-inline: 5rem;
+}
+
+.stelle h2{
+	padding-top: 2rem;
+	
+}
+
+.scarica{
+	align-self: center;
+	color: white;
+	background-color: #6e8ad6;
+	padding-inline: 1.7rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 30px;
+	margin-bottom: 6rem;
+}
 /* footer */
 
 footer {
