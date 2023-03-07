@@ -122,6 +122,8 @@ main section {
 
 .section-feature .container {
 	display: flex;
+	padding-top: 7rem;
+	justify-content: center;
 }
 
 .section-feature.reverse .container {
@@ -129,7 +131,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	background-color: lightgray; /* TODO: check value */
 }
 
 .section-feature .image {
@@ -137,9 +139,38 @@ main section {
 }
 
 .section-feature .text {
-	flex: 0 0 40%;
+	flex: 0 0 27%;
+	
 }
 
+.section-feature .text h1{
+	font-size: 3rem;
+	margin-bottom: 2.5rem;
+}
+
+.section-feature .text p{
+	
+	font-size: 1.1rem;
+	font-weight: 600;
+	line-height: 1.6rem;
+}
+
+.bkg-gray .text{
+	padding-right: 5rem;
+}
+
+.bkg-gray .text h1{
+	padding-top: 2rem;
+	font-size: 3rem;
+	margin-bottom: 2.5rem;
+}
+
+.bkg-grey .text p{
+	
+	font-size: 1.1rem;
+	font-weight: 600;
+	line-height: 1.6rem;
+}
 /* footer */
 
 footer {

@@ -2,17 +2,6 @@
 
 
 
-
-.section-feature .image {
-	background-color: aquamarine;
-	min-height: 250px;
-}
-
-.section-feature .text {
-	background-color: coral;
-	min-height: 250px;
-}
-
 .section-full .container {
 	background-color: green;
 	min-height: 500px;
