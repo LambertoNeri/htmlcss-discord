@@ -43,14 +43,12 @@ header{
 
 .links, .logo{
 	color: white;
-	
 }
 
 .login{
 	background-color: white;
-	border-radius: 20px;
-
 }
+
 .hover:hover {
 	background-color: brown;
 	cursor: pointer;
@@ -60,20 +58,59 @@ header{
 	padding-inline: 2rem;
 }
 
-.login{
-
-}
 .jumbo .content {
-	max-width: 500px;
+	max-width: 900px;
 	margin-inline: auto;
 	padding-inline: 1rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 7rem;
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
+.content h1{
+	color: white;
+	align-self: center;
+	margin-bottom: 3rem;
+	font-size: 3rem;
+	
+	
+}
+
+.content p{
+	margin-bottom: .8rem;
+	color: white;
+	font-size: 1.1rem;
+	align-self: center;
+}
 .jumbo {
 	padding-top: 3rem;
 	padding-bottom: 4rem;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	padding-bottom: 7rem;
+}
+
+.mac{
+	background-color: white;
+	border-radius: 20px;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	padding-inline: 0.7rem;
+}
+
+.discord{
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	padding-inline: 0.7rem;
+	color: white;
 }
 
 /* main */
