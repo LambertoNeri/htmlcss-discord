@@ -131,7 +131,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightgray; /* TODO: check value */
+	background-color: lightgray; 
 }
 
 .section-feature .image {
@@ -219,7 +219,7 @@ main section {
 	border-radius: 30px;
 	margin-bottom: 6rem;
 }
-/* footer */
+/* footer "TODO è incasinato fixare l'order footer" */
 
 footer {
 	padding-top: 4rem;
@@ -236,7 +236,7 @@ footer .column-socials {
 	flex: 0 0 20%;
 	line-height: 2.5rem;
 }
-
+                                                 
 footer .column-links {
 	flex: 0 0 15%;
 	line-height: 2.5rem;
