@@ -43,15 +43,23 @@ header{
 
 .links, .logo{
 	color: white;
+	
 }
 
 .login{
 	background-color: white;
+	height: 30%;
+	margin-top: 1.4rem;
+	border-radius: 20px;
+	padding-inline: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 }
 
 .hover:hover {
-	background-color: brown;
+	background-color: rgb(13, 33, 119);
 	cursor: pointer;
+	color: white;
 }
 
 .links{
